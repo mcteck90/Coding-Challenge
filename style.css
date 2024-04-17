@@ -1,0 +1,127 @@
+/*Impostazione immagine sfondo*/
+body {
+    background-image: url(background.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Impostazione container per sfondo trasparente*/
+.container {
+    width: 65%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+}
+/*Impostazione tabella logo e intestazione*/
+    .box ul {
+        text-align: center;
+    }
+.logo {
+    width: 23%;
+    height: 23%;
+    margin-top: 7rem;
+    list-style: none;
+}
+.intestazione {
+    list-style: none;
+    font-size: 3rem;
+    color: #00DD00;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.monopattini {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Impostazione contenitore bottoni*/
+.rigaverde {
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00DD00;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+}
+/*bottone prenota*/
+.prenota {
+    text-transform: capitalize;
+}
+/*bottone termina prenotazione*/
+.termina-prenotazione {
+    text-transform: capitalize;
+}
+/*bottone accendi le luci*/
+.accendi-luci {
+    text-transform: capitalize;
+}
+
+/*utente1*/
+.utente1{
+    width:100%;
+}
+    .utente1 ul {
+        list-style: none;
+        text-transform: capitalize;
+        color:#fff;
+    }
+#intestazione-utente1 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 0.2rem;
+}
+#statocarica-utente1 {
+    width: 30%;
+    height: 3vh;
+    background-color: #F5B453;
+    border-radius: 0.5rem;
+}
+/*utente2*/
+.utente2 {
+    width: 100%;
+}
+    .utente2 ul {
+        list-style: none;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+#intestazione-utente2 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 0.2rem;
+}
+
+#statocarica-utente2 {
+    width: 60%;
+    height: 3vh;
+    background-color: #00DD00;
+    border-radius: 0.5rem;
+}
+/*utente3*/
+.utente3 {
+    width: 100%;
+    padding-bottom:15vh;
+}
+    .utente3 ul {
+        list-style: none;
+        text-transform: capitalize;
+        color: #fff;
+    }
+#intestazione-utente3 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 0.2rem;
+}
+#statocarica-utente3 {
+    width: 15%;
+    height: 3vh;
+    background-color: #BE4141;
+    border-radius:0.5rem;
+}
+
